@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>5 unshift-method</title>
+</head>
+
+<body>
+<h3 style="color: red;text-align:center;">What is unshift methods</h3>
+<h3 style="color:green ; margin-left:40px;">The unshift method adds a new element at the first</h3>
+
+<p id="add1"></p>
+<p id="add2"></p>
+<p id="add3"></p>
+
+
+</body>
+<script>
+let add =["htme", "css" , "javascript", "c"];
+document.getElementById("add1").innerHTML=add;
+add.unshift("All language are good");
+document.getElementById("add1").innerHTML=add;
+
+let numb=[3,4,5,6,7];
+numb.unshift("add num",1 ,2  );
+document.getElementById("add2").innerHTML=numb;
+
+let numb1=[3,4,5,6,7];
+numb1.unshift(1 ,2 ,3,4);
+document.getElementById("add3").innerHTML=numb1;
+</script>
+</html>
